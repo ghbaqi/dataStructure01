@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>_02_Arrays</module>
+        <module>_03_Stack_and_queues</module>
+        <module>_04_Linked_list</module>
+        <module>_05_Recursion</module>
+        <module>_06_Binary_search_tree</module>
+        <module>_07_Set_and_map</module>
+        <module>_08_Heap_and_priorityQueue</module>
+        <module>_09_SeagmentTree</module>
+        <module>_10_Trie</module>
+    </modules>
+    <groupId>com.gh.ds</groupId>
+    <artifactId>my-ds01</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+</project>

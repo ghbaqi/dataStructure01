@@ -14,6 +14,7 @@
         <module>_08_Heap_and_priorityQueue</module>
         <module>_09_SeagmentTree</module>
         <module>_10_Trie</module>
+        <module>leetcode</module>
     </modules>
     <groupId>com.gh.ds</groupId>
     <artifactId>my-ds01</artifactId>

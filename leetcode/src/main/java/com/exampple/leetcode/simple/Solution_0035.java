@@ -7,18 +7,39 @@ package com.exampple.leetcode.simple;
  */
 public class Solution_0035 {
 
+
     public int searchInsert(int[] nums, int target) {
 
+        if (target < nums[0])
+            return 0;
+        if (target > nums[nums.length - 1])
+            return nums.length;
+//        int small;
+//        int big;
+        for (int i = 0; i < nums.length; i++) {
+            if (target == nums[i]) {
+                return i;
+            } else if (target > nums[i]) {
+//                small = i;
+            } else {        // 第一次数组中 元素 大于 target
+//                big = i;
+                return i;
+            }
 
-        int res = find(nums, target, 0, nums.length - 1);
+        }
 
-
-        return 0;
+        return -1;
     }
 
-    private int find(int[] nums, int target, int start, int end) {
+    public static void main(String[] args) {
+        Solution_0035 so = new Solution_0035();
 
-        return 0;
+        System.out.println(so.searchInsert(new int[]{2, 4, 5, 7, 9}, 1));   // 0
+        System.out.println(so.searchInsert(new int[]{2, 4, 5, 7, 9}, 4));  // 1
+        System.out.println(so.searchInsert(new int[]{2, 4, 5, 7, 9}, 6));  // 3
+        System.out.println(so.searchInsert(new int[]{2, 4, 5, 7, 9}, 8));  // 4
+        System.out.println(so.searchInsert(new int[]{2, 4, 5, 7, 9}, 9));  // 4
+        System.out.println(so.searchInsert(new int[]{2, 4, 5, 7, 9}, 10));  // 5
     }
 
 

@@ -19,4 +19,19 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
+
+
+    public void inOrder() {
+        inOrder(this);
+    }
+
+    private void inOrder(TreeNode node) {
+        if (node == null)
+            return;
+        if (node.left != null)
+            inOrder(node.left);
+        System.out.println(node.val);
+        if (node.right != null)
+            inOrder(node.right);
+    }
 }

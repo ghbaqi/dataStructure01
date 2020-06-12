@@ -2,11 +2,11 @@ package com.exampple.leetcode.sort;
 
 public class QuickSort {
 
-    private void quickSort(int[] arr) {
+    public static void quickSort(int[] arr) {
         quickSortHelp(arr, 0, arr.length - 1);
     }
 
-    private void quickSortHelp(int[] arr, int left, int right) {
+    private static void quickSortHelp(int[] arr, int left, int right) {
 
         if (left < right) {
             int hole = adjustArray(arr, left, right);
@@ -30,7 +30,7 @@ public class QuickSort {
      * <p>
      * 返回 初始 arr[left] 所在的 新位置
      */
-    private int adjustArray(int[] arr, int left, int right) {
+    private static int adjustArray(int[] arr, int left, int right) {
 
         int temp = arr[left];       // 用一个 临时变量  记住 当前 坑 的元素值
         int hole = left;            // 初始化 坑位

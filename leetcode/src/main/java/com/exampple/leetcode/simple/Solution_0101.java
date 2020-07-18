@@ -3,7 +3,6 @@ package com.exampple.leetcode.simple;
 // 对称二叉树
 
 import com.exampple.leetcode.TreeNode;
-import sun.tools.attach.HotSpotVirtualMachine;
 
 import java.util.ArrayList;
 

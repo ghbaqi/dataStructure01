@@ -1,10 +1,6 @@
 package com.exampple.leetcode.middle;
 
-import apple.laf.JRSUIUtils;
-import com.sun.tools.javac.util.RichDiagnosticFormatter;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 
